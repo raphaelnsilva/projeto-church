@@ -12,23 +12,16 @@
 * {
     margin: 0px;
     padding: 0px;
+    text-decoration: none;
 }
 
 body {
-    background: black url('../imagens/fundo2.png') center no-repeat fixed;
-}
-
-header {
-    background-image: linear-gradient(to bottom, black, rgba(0, 0, 0, 0.781));
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-}
-
-header > nav {
-    text-align: right;
-    padding-bottom: 10px;
-    
-}
+    height: 100vh;
+    background-color: black;
+    background-image: url(../imagens/);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
 
 
