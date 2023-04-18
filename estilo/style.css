@@ -18,10 +18,41 @@
 body {
     height: 100vh;
     background-color: black;
-    background-image: url(../imagens/);
+    background-image: url('../imagens/paisagem.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
  }
+
+ .cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 8px;
+    background-color: black;
+ }
+
+ .cabecalho-menu {
+    display: flex;
+    gap: 40px;
+ }
+
+ .cabecalho-menu-item {
+    font-family: var(--fonte01);
+    color: white;
+    font-weight: 400px;
+    font-size: 18px;
+ }
+
+ .conteudo {
+    text-align: center;
+    padding-top: 280px;
+    text-shadow: 2px 2px 2px black;
+    color: white;
+    font-family: var(--fonte01);
+    
+ }
+
 
 
