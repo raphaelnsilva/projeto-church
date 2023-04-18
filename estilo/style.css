@@ -30,7 +30,7 @@ body {
     align-items: center;
     justify-content: space-around;
     padding: 8px;
-    background-color: black;
+    background-image: linear-gradient(to bottom, black, rgb(29, 29, 29) );
  }
 
  .cabecalho-menu {
