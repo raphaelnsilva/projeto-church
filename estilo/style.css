@@ -24,7 +24,7 @@ body {
     background-size: cover;
  }
 
- .cabecalho {
+.cabecalho {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -64,24 +64,24 @@ body {
  }
 
  .conteudo-primario-titulo {
-   padding-bottom: 17px;
+      padding-bottom: 17px;
  }
 
  .conteudo-primario-conteudo {
-   border-top: 0.8px solid white;
+      border-top: 0.8px solid white;
    padding-top: 17px;
  }
 
  .conteudo-secundario {
-    color: white;
-    position: absolute;
-    display: flex;
-    gap: 40px;
-    flex-direction: row;
+   color: white;
+   position: absolute;
+   display: flex;
+   gap: 40px;
+   flex-direction: row;
     
-    left: 50%;
-    top: 65%;
-    transform: translate(-50%, -50%);
+   left: 50%;
+   top: 65%;
+   transform: translate(-50%, -50%);
  }
 
  .conteudo-secundario-item {
@@ -89,6 +89,12 @@ body {
    border-radius: 2px;
    padding: 10px;
    font-family: var(--fonte02);
+ }
+
+ .conteudo-secundario-item:hover {
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.432);
+    transition: transform .3s;
  }
 
 
