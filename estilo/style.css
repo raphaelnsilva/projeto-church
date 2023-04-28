@@ -30,7 +30,7 @@ body {
     align-items: center;
     justify-content: space-around;
     padding: 8px;
-    background-image: linear-gradient(to bottom, black, rgb(29, 29, 29) );
+    background-image: linear-gradient(to bottom, black, rgb(54, 54, 54) );
  }
 
  .cabecalho-menu {
@@ -39,9 +39,11 @@ body {
  }
 
  .cabecalho-menu-item:hover {
-    background-color: grey;
+    background-color: rgba(128, 128, 128, 0.623);
     border-radius: 2px;
-   
+    transform: translate(1px, 1px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.432);
+    transition: transform .3s
  }
 
  .cabecalho-menu-item {
@@ -64,37 +66,39 @@ body {
  }
 
  .conteudo-primario-titulo {
-      padding-bottom: 17px;
+    padding-bottom: 17px;
  }
 
  .conteudo-primario-conteudo {
-      border-top: 0.8px solid white;
-   padding-top: 17px;
+    border-top: 0.8px solid white;
+    padding-top: 17px;
  }
 
  .conteudo-secundario {
-   color: white;
-   position: absolute;
-   display: flex;
-   gap: 40px;
-   flex-direction: row;
+    olor: white;
+    position: absolute;
+    display: flex;
+    gap: 40px;
+    flex-direction: row;
     
-   left: 50%;
-   top: 65%;
-   transform: translate(-50%, -50%);
+    left: 50%;
+    top: 65%;
+    transform: translate(-50%, -50%);
  }
 
  .conteudo-secundario-item {
-   background-color: grey;
-   border-radius: 2px;
-   padding: 10px;
-   font-family: var(--fonte02);
+    background-color: grey;
+    color: white;
+    border-radius: 2px;
+    padding: 10px;
+    font-family: var(--fonte02);
  }
 
  .conteudo-secundario-item:hover {
     transform: translate(-3px, -3px);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.432);
     transition: transform .3s;
+
  }
 
 
