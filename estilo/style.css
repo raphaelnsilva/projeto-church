@@ -19,7 +19,7 @@
 }
 
 .logo {
-   background-color: rgb(36, 36, 36);
+   background-image: linear-gradient(to top, rgb(0, 0, 0), rgb(77, 76, 74));
    text-align: center;
 }
 
