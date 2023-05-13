@@ -5,101 +5,106 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;600&display=swap');
 
 :root {
-    --fonte01: 'Quicksand', sans-serif;
-    --fonte02: 'Comfortaa', cursive;
+   --fonte01: 'Quicksand', sans-serif;
+   --fonte02: 'Comfortaa', cursive;
 }
 
 * {
-    margin: 0px;
-    padding: 0px;
-    text-decoration: none;
+   margin: 0px;
+   padding: 0px;
+   text-decoration: none;
 }
 
 body {
-    height: 100vh;
-    background-color: rgb(82, 77, 77);
-    background-image: url('../imagens/paisgem.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
- }
+   height: 100vh;
+   background-color: rgb(82, 77, 77);
+   background-image: url('../imagens/paisgem.jpg');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
 
 .cabecalho {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    padding: 8px;
-    background-image: linear-gradient(to bottom, black, rgb(54, 54, 54) );
- }
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-around;
+   padding: 8px;
+   background-image: linear-gradient(to bottom, black, rgb(54, 54, 54) );
+}
 
- .cabecalho-menu {
-    display: flex;
-    gap: 40px;
- }
+.cabecalho-imagem {
+   display: flex;
 
- .cabecalho-menu-item:hover {
-    background-color: rgba(128, 128, 128, 0.623);
-    border-radius: 2px;
-    transform: translate(1px, 1px);
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.432);
-    transition: transform .3s
- }
+}
 
- .cabecalho-menu-item {
-    font-family: var(--fonte01);
-    font-weight: 600;
-    color: white;
-    font-weight: 400px;
-    font-size: 18px;
- }
+.cabecalho-menu {
+   display: flex;
+   gap: 40px;
+}
 
- .conteudo-primario {
-    color: white;
-    font-family: var(--fonte01); 
-    text-align: center;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    text-shadow: 1px 1px 1px black;
- }
+.cabecalho-menu-item:hover {
+   background-color: rgba(128, 128, 128, 0.623);
+   border-radius: 2px;
+   transform: translate(1px, 1px);
+   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.432);
+   transition: transform .3s
+}
 
- .conteudo-primario-titulo {
-    padding-bottom: 17px;
- }
+.cabecalho-menu-item {
+   font-family: var(--fonte01);
+   font-weight: 600;
+   color: white;
+   font-weight: 400px;
+   font-size: 18px;
+}
 
- .conteudo-primario-conteudo {
-    border-top: 0.8px solid white;
-    padding-top: 17px;
- }
+.conteudo-primario {
+   color: rgb(114, 38, 38);
+   font-family: var(--fonte01); 
+   text-align: center;
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%);
+   text-shadow: 1px 1px 1px black;
+}
 
- .conteudo-secundario {
-    olor: white;
-    position: absolute;
-    display: flex;
-    gap: 40px;
-    flex-direction: row;
-    
-    left: 50%;
-    top: 65%;
-    transform: translate(-50%, -50%);
- }
+.conteudo-primario-titulo {
+   padding-bottom: 17px;
+}
 
- .conteudo-secundario-item {
-    background-color: grey;
-    color: white;
-    border-radius: 2px;
-    padding: 10px;
-    font-family: var(--fonte02);
- }
+.conteudo-primario-conteudo {
+   border-top: 0.8px solid white;
+   padding-top: 17px;
+}
 
- .conteudo-secundario-item:hover {
-    transform: translate(-3px, -3px);
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.432);
-    transition: transform .3s;
+.conteudo-secundario {
+   olor: white;
+   position: absolute;
+   display: flex;
+   gap: 40px;
+   flex-direction: row;
+   
+   left: 50%;
+   top: 65%;
+   transform: translate(-50%, -50%);
+}
 
- }
+.conteudo-secundario-item {
+   background-color: grey;
+   color: white;
+   border-radius: 2px;
+   padding: 10px;
+   font-family: var(--fonte02);
+}
+
+.conteudo-secundario-item:hover {
+   transform: translate(-3px, -3px);
+   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.432);
+   transition: transform .3s;
+
+}
 
 
 
