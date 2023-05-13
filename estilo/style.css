@@ -15,98 +15,76 @@
    text-decoration: none;
 }
 
-body {
-   height: 100vh;
-   background-color: rgb(82, 77, 77);
-   background-image: url('../imagens/paisgem.jpg');
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
-}
-
-.cabecalho {
-   display: flex;
-   flex-direction: row;
-   align-items: center;
-   justify-content: space-around;
-   padding: 8px;
-   background-image: linear-gradient(to bottom, black, rgb(54, 54, 54) );
-}
-
-.cabecalho-imagem {
-   display: flex;
-
-}
-
-.cabecalho-menu {
-   display: flex;
-   gap: 40px;
-}
-
-.cabecalho-menu-item:hover {
-   background-color: rgba(128, 128, 128, 0.623);
-   border-radius: 2px;
-   transform: translate(1px, 1px);
-   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.432);
-   transition: transform .3s
-}
-
-.cabecalho-menu-item {
-   font-family: var(--fonte01);
-   font-weight: 600;
-   color: white;
-   font-weight: 400px;
-   font-size: 18px;
-}
-
-.conteudo-primario {
-   color: rgb(114, 38, 38);
-   font-family: var(--fonte01); 
+.logo {
+   background-color: rgb(36, 36, 36);
    text-align: center;
+}
+
+#burguer {
+   display: block;
+   background-color: rgba(36, 36, 36, 0.363);
+   color: white;
+   text-align: center;
+   padding: 10px;
+   cursor: pointer;
+}
+
+#burguer:hover {
+   background-color: rgb(172, 102, 37, 0.562);
+}
+
+nav {
+   display: none;
+}
+
+nav > a {
+   display: block;
+   padding: 5px;
+   background-color: rgba(63, 62, 62, 0.705);
+   color: white;
+   font-family: var(--fonte02);
+   text-align: center;
+   border-top: 1px solid rgb(26, 25, 25);
+   text-shadow: 2px 2px 1px black;
+}
+
+nav > a:hover {
+   background-color: rgba(201, 112, 29, 0.562)
+}
+
+main {
    position: absolute;
-   left: 50%;
    top: 50%;
-   transform: translate(-50%, -50%);
-   text-shadow: 1px 1px 1px black;
+   left: 50%;
+   transform: translate(-50%);
+   color: white;
+   text-shadow: 2px 2px 2px black;
+   font-family: var(--fonte01);
 }
 
-.conteudo-primario-titulo {
-   padding-bottom: 17px;
-}
-
-.conteudo-primario-conteudo {
-   border-top: 0.8px solid white;
-   padding-top: 17px;
+body {
+   background-image: url(../imagens/background.jpg);
+   background-size: cover;
+   background-position: center center;
+   background-attachment: fixed;
 }
 
 .conteudo-secundario {
-   olor: white;
-   position: absolute;
    display: flex;
-   gap: 40px;
    flex-direction: row;
+   justify-content: space-between;
+}
+
+.conteudo-primario-titulo {
+   font-size: 31px;
+}
+
+.conteudo-primario-endereco {
+   font-size: 15px;
+   text-align: center;
+   padding: 15px;
    
-   left: 50%;
-   top: 65%;
-   transform: translate(-50%, -50%);
 }
-
-.conteudo-secundario-item {
-   background-color: grey;
-   color: white;
-   border-radius: 2px;
-   padding: 10px;
-   font-family: var(--fonte02);
-}
-
-.conteudo-secundario-item:hover {
-   transform: translate(-3px, -3px);
-   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.432);
-   transition: transform .3s;
-
-}
-
-
 
 
 
