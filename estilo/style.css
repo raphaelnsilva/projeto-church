@@ -18,26 +18,25 @@
    text-decoration: none;
 }
 
+.logo-imagem {
+   padding-bottom: 10px;
+}
+
 .logo {
    display: flex;
-   justify-content: space-around;
-   background-image: linear-gradient(to top, black, rgb(75, 75, 75));
+   justify-content: space-between;
+   background-image: linear-gradient(to right top, black, rgb(75, 75, 75));
    text-align: center;
 }
 
 #burguer {
    display: block;
-   background-image: linear-gradient(to top, black, rgb(75, 75, 75));
    color: white;
    text-align: center;
-   padding: 10px;
+   padding: 25px;
    cursor: pointer;
-   border-radius: 0px 0px 10px 10px;
 }
 
-#burguer:hover {
-   background-color: rgb(172, 102, 37, 0.562);
-}
 
 nav {
    display: none;
