@@ -19,13 +19,15 @@
 }
 
 .logo {
+   display: flex;
+   justify-content: space-around;
    background-image: linear-gradient(to top, black, rgb(75, 75, 75));
    text-align: center;
 }
 
 #burguer {
    display: block;
-   background-color: rgba(36, 36, 36, 0.363);
+   background-image: linear-gradient(to top, black, rgb(75, 75, 75));
    color: white;
    text-align: center;
    padding: 10px;
