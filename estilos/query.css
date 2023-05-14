@@ -3,9 +3,11 @@
 @media screen and (min-width: 768px) and (max-width: 992px) {
     .conteudo-primario-endereco {
         font-size: 15px;
+        transition: 0.2s;
     }
     
     .conteudo-primario-titulo {
         font-size: 26px;
+        transition: 0.2s;
     }
 }
