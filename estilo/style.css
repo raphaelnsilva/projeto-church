@@ -18,8 +18,11 @@
    text-decoration: none;
 }
 
-.logo-imagem {
-   padding-bottom: 10px;
+body {
+   background-image: url(../imagens/background.jpg);
+   background-size: cover;
+   background-position: center center;
+   background-attachment: fixed;
 }
 
 .logo {
@@ -29,6 +32,10 @@
    text-align: center;
 }
 
+.logo-imagem {
+   padding-bottom: 10px;
+}
+
 #burguer {
    display: block;
    color: white;
@@ -36,7 +43,6 @@
    padding: 25px;
    cursor: pointer;
 }
-
 
 nav {
    display: none;
@@ -67,50 +73,6 @@ main {
    font-family: var(--fonte01);
 }
 
-body {
-   background-image: url(../imagens/background.jpg);
-   background-size: cover;
-   background-position: center center;
-   background-attachment: fixed;
-}
-
-.conteudo-secundario {
-   display: flex;
-   flex-direction: row;
-   justify-content: space-around;
-}
-
-.secundario-primeiro:hover {
-   background-color: rgba(201, 112, 29, 0.342);
-   transform: translate(-1px, -1px);
-   transition: transform .2s;
-}
-
-.secundario-segundo:hover {
-   background-color: rgba(201, 112, 29, 0.342);
-   transform: translate(-1px, -1px);
-   transition: transform .2s;
-}
-
-.secundario-primeiro {
-   border: 1px solid white;
-   padding: 15px;
-   background-color: rgba(128, 128, 128, 0.219);
-   margin-top: 30px;
-   border-radius: 4px;
-   text-shadow: 2px 2px 2px black;
-}
-
-
-.secundario-segundo {
-   border: 1px solid white;
-   padding: 15px;
-   background-color: rgba(128, 128, 128, 0.219);
-   margin-top: 30px;
-   border-radius: 4px;
-   text-shadow: 2px 2px 2px black;
-}
-
 .conteudo-primario {
    display: flex;
    flex-direction: column;
@@ -129,6 +91,31 @@ body {
    padding: 15px;
    text-shadow: 2px 2px 2px black;   
 }
+
+.conteudo-secundario {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+}
+
+div > a > h3 {
+   border: 1px solid white;
+   padding: 15px;
+   background-color: rgba(128, 128, 128, 0.219);
+   color: white;
+   margin-top: 30px;
+   border-radius: 4px;
+   text-shadow: 2px 2px 2px black;
+}
+
+div > a > h3:hover {
+   background-color: rgba(201, 112, 29, 0.342);
+   transform: translate(-1px, -1px);
+   transition: transform .2s;
+}
+
+
+
 
 
 
