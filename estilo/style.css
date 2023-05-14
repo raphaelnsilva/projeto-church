@@ -28,19 +28,20 @@ body {
 .logo {
    display: flex;
    justify-content: space-between;
-   background-image: linear-gradient(to right top, black, rgb(75, 75, 75));
+   background-image: linear-gradient(to right top, rgb(0, 0, 0), rgb(75, 75, 75));
    text-align: center;
 }
 
 .logo-imagem {
-   padding-bottom: 10px;
+   padding-bottom: 8px;
+   padding-top: 8px;
 }
 
 #burguer {
    display: block;
    color: white;
    text-align: center;
-   padding: 25px;
+   padding: 28px;
    cursor: pointer;
 }
 
