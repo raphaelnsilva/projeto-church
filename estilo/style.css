@@ -51,6 +51,7 @@ body {
 
 nav > a {
    display: block;
+   flex-direction: row-reverse;
    padding: 5px;
    background-color: rgba(63, 62, 62, 0.705);
    color: white;
